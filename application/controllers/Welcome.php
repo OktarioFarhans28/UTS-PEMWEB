@@ -50,7 +50,8 @@ class Welcome extends CI_Controller
             $status = 'Remaja';
         } elseif ($umur > 20 && $umur <= 30) {
             $status = 'Dewasa';
-        } elseif ($umur > 30) {
+        } elseif ($umur > 30) 
+        {
             $status = 'Tua';
         }
 
