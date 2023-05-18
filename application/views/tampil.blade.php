@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
   <head><script src="/docs/5.3/assets/js/color-modes.js"></script>
@@ -43,7 +44,7 @@
     </div>
   </main>
   <footer class="pt-5 my-5 text-body-secondary border-top">
-    Ujian Pemrograman Web 2023 Syahrul Oktario Farhan
+    Ujian Pemrograman Web 2023
   </footer>
 </div>
 </body>

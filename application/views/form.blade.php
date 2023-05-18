@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
   <head><script src="/docs/5.3/assets/js/color-modes.js"></script>
@@ -36,10 +37,10 @@
       <div class="col-md-6">
         <h2 class="text-body-emphasis">Form Input Data</h2>
         <p>Masukan data yang akan di proses</p>
-        <form method="post" action="">
+        <form method="post" action="{{ site_url('welcome/tampil') }}">
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Nama (text only)</label>
-                <input type="text" pattern="[a-zA-Z]*" class="form-control" id="nama" name="nama" aria-describedby="nama" required>
+                <label for="exampleInputEmail1" class="form-label">Nama</label>
+                <input type="text" class="form-control" id="nama" name="nama" aria-describedby="nama" required>
             </div>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">NIM</label>
@@ -55,7 +56,7 @@
     </div>
   </main>
   <footer class="pt-5 my-5 text-body-secondary border-top">
-    Ujian Pemrograman Web 2023 Syahrul Oktario Farhan
+    Ujian Pemrograman Web 2023 Syahrul Oktario F
   </footer>
 </div>
 </body>
